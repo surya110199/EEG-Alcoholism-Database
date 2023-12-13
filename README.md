@@ -2,42 +2,13 @@
 
 ## Getting started
 
-This project is about using Deep Neural networks on EEG Alcoholism Database. The original dataset is from the UCI Alcoholism database which can be accessed by the following link (https://archive.ics.uci.edu/dataset/121/eeg+database).
-## Add your files
+This project is about using Deep Neural networks on the EEG Alcoholism Database. The original dataset is from the UCI Alcoholism database which can be accessed by the following link (https://archive.ics.uci.edu/dataset/121/eeg+database). My assignment uses the pre-processed version of the dataset using the code (https://github.com/ShiyaLiu/EEG-feature-filter-and-disguising/blob/master/DataPreprocessing/eegtoimg.py).
+## Data Description
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+The dataset has two different versions. 
 
-```
-cd existing_repo
-git remote add origin https://gitlab.cecs.anu.edu.au/u7622160/eda-project.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.cecs.anu.edu.au/u7622160/eda-project/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
+1) EEG as Time series data:- Each signal is measured using 64 electordes and sampled at 256Hz so the resulting tensor is of size 11057 x 256 x 64. (11057 is the number of trails performed.)
+2) EEG as Image-based dataset:- In this method, each signal of 64 x 256 dimension is converted to an image of 32x32x3 resulting data size of 11057 x 32 x 32 x 3.
 
 # Editing this README
 
