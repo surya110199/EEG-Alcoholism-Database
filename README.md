@@ -20,8 +20,12 @@ The dataset has two different versions.
 ## References:-
 
 1) (https://archive.ics.uci.edu/dataset/121/eeg+database)
+
+
+**Citation:**
+
 ```bibtex
-4) @inproceedings{yao2018deep,
+@inproceedings{yao2018deep,
   title={Deep feature learning and visualization for EEG recording using autoencoders},
   author={Yao, Yue and Plested, Jo and Gedeon, Tom},
   booktitle={International Conference on Neural Information Processing},
@@ -30,7 +34,7 @@ The dataset has two different versions.
   organization={Springer}
 }
 
-5) @article{yao2020information,
+@article{yao2020information,
   title={Information-preserving feature filter for short-term EEG signals},
   author={Yao, Yue and Plested, Josephine and Gedeon, Tom},
   journal={Neurocomputing},
