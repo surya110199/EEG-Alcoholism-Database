@@ -24,22 +24,5 @@ The dataset has two different versions.
 
 **Citation:**
 
-```bibtex
-@inproceedings{yao2018deep,
-  title={Deep feature learning and visualization for EEG recording using autoencoders},
-  author={Yao, Yue and Plested, Jo and Gedeon, Tom},
-  booktitle={International Conference on Neural Information Processing},
-  pages={554--566},
-  year={2018},
-  organization={Springer}
-}
-
-@article{yao2020information,
-  title={Information-preserving feature filter for short-term EEG signals},
-  author={Yao, Yue and Plested, Josephine and Gedeon, Tom},
-  journal={Neurocomputing},
-  volume={408},
-  pages={91--99},
-  year={2020},
-  publisher={Elsevier}
-}
+1) Yao, Y., Plested, J., Gedeon, T.: Deep feature learning and visualization for eeg recording using autoencoders. In: International Conference on Neural Information Processing. pp. 554–566. Springer (2018)
+2) Milne, L., Gedeon, T., & Skidmore, A. (1995). Classifying dry sclerophyll forest from augmented satellite data: Comparing neural network, decision tree and maximum likelihood. In ACNN'95.
